@@ -71,6 +71,11 @@ public class MyArrayList<T> implements Iterable<T> {
     }
 
     public Iterator<T> iterator() {
-        return null;
+        return new ArrayListIterator();
+    }
+
+    private Class ArrayListIterator implements Iterator<T>{
+
+
     }
 }
